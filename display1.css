@@ -1,0 +1,27 @@
+h1{
+    display: none;
+}
+a{
+    background-color: black;
+    color: blue;
+    display: block;
+}
+.block{
+    display: block;
+}
+.parent{
+    background-color: blue;
+    display: flex;
+gap: 10px;
+    justify-content: space-evenly;
+    height: 100px;
+}
+.item1{
+    color: aliceblue;
+}
+.item2{
+    color: aliceblue;
+}
+.item3{
+    color: aliceblue;
+}

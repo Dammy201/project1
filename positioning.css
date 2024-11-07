@@ -1,0 +1,44 @@
+
+
+body{height: 1000vh;
+
+}
+.parent{
+    background-color: blue;
+    color: white;
+    /* position: static; */
+    position: static;
+    top:0 ;
+
+}
+.child{
+    height: 200px;
+    color: white;
+    z-index: 1;
+}
+.child-one{
+    background-color: green;
+    /* position: relative; */
+    /* left: -4rem; */
+    /* top: 3rem; */
+    /* position: absolute; */
+    /* bottom: 300px; */
+    /* width: 100%; */
+}
+.child-two{
+    background-color: red;
+}
+.child-three{
+    background-color: brown;
+}
+section{
+    height: 100px;
+    background-color: yellow;
+    /* position: fixed; */
+    position: sticky;
+    top: 100px;
+    left: 100px;
+    width: 100%;
+    z-index: 99;
+
+}

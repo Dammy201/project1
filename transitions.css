@@ -1,0 +1,20 @@
+/* transition property,transition duration transition-timing-function transition-delay*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.btn{
+    background-color: red;
+    color: aliceblue;
+    transition-duration: 5s;
+    transition-property: background ,transform;
+    /* transition-delay: 3s; */
+    transform: translateX(0);
+}
+.btn:hover{
+    background-color: yellow;
+    color: black;
+    transform: translateX(130px);
+    transition-timing-function: ease-in-out;
+}

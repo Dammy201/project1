@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    align-content: center;
+}
+.card{
+    background-color: #2d2d2d;
+    padding: 2px;
+    border-radius: 12px;
+    width: 320px;
+    height: 600px;
+    text-align: center;
+    color: white;
+margin-left: 40%;
+}
+.profile-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+button{
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: #3a3a3a;
+    font-weight: bold;
+    border-radius: 10px;
+    
+    
+}
+.bio{margin-top: 20px;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.location{
+    color: rgb(234, 250, 8);
+    font-size: 11px;
+}
+
+

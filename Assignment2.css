@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.frontimage{
+background-image: url(.vscode/robotgradientintro2.jpg.jpg);
+width:100% ;
+height: 800px;
+position: relative;
+top: 50px;
+display: flex; 
+align-items: center;
+align-content: center; 
+}
+.title{
+    color: aliceblue;
+    position: relative;
+     left: 400px;
+    font-size: 50px;
+    display: flex;
+    bottom: 100px;
+    z-index: 1;
+    /* justify-content: flex-start; */
+width: 500px;
+height: 200px;
+}
+.bio{
+    position: relative;
+    top: 100px;
+    right: 370px;
+    color: white;
+    font-size: 20px;
+}
+.buble{position: relative;
+    left: 850px;
+    bottom: 80px;
+}
+.bio1{
+    position: relative;
+    bottom: 400px;
+    left: 50px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.header{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+text-decoration-thickness: 10px;
+background-color: linear-gradient(45deg,red,blue);
+/* -webkit-background-clip: text; */
+/* -webkit-text-fill-color: transparent; */
+font-size: 30px;
+position: relative;
+left: 50px;
+color: purple;
+}
+.bio2{
+    width: 500px;
+    position: relative;
+    left: 50px;
+}
+
+.learnmore{
+    border: 2px solid rgb(130, 210, 241);
+    width: 150px;
+    position: relative;
+    left: 50px;
+    font-size: 20px;
+    color: purple;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.bio3{
+    position: relative;
+    bottom: 300px;
+}
+.image1{
+    position: relative;
+    bottom: 1400px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    left: 700px;
+}
+.image2{
+    position: relative;
+    bottom: 1500px;
+    left: 1000px;
+    /* width: 50px; */
+    /* height: 50px; */
+    /* border-radius: 50%; */
+    /* overflow: hidden; */
+}
+.image3{
+    position: relative;
+    bottom: 1800px;
+}
+.car{
+    position: relative;
+    bottom:1700px;
+    left: 700px; 
+}
+.rocket{
+    position: relative;
+    bottom: 2200px;
+    left: 380px;
+}
+.head{
+    position: relative;
+    bottom: 2700px;
+    left: 60px;
+}
+.shake{
+    position: relative;
+    bottom: 3110px;
+    left: 1020px;
+}
+.image4{
+    position: relative;
+    bottom: 2900px;
+    left: 950px;
+}
+.bio4{
+    /* background-color: aquamarine; */
+    position: relative;
+    bottom: 3500px;
+    width: 300px;
+    left: 100px;
+    
+}
+.icon1{
+    width: 200px;
+    height: 300px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: aqua;
+}
+
+.bio5{
+    font-family: sans-serif;
+}
+.bio6 h1 {
+position: relative;
+bottom: 200px;
+}
+.bio7 p{
+    position: relative;
+    bottom: 200px;
+}
+.image6{
+position: relative;
+bottom: 2900px;
+border-radius: 50%;
+}
